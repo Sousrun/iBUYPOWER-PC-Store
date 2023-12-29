@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+
+}
+.line-contact{
+    align-items: center;
+    justify-content: center;
+}
+.line-contact-taxt{
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+  
+}
+.line-contact-taxt a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 8px;
+   list-style: none;
+}
+/* Contact Information */
+.contact_Info{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.sub_Info{
+    margin: 5% 5%;
+}
+.sub_Info h1{
+    font-size: 2.5em;
+}
+.sub-text{
+    font-size: 2em;
+    text-align:left;
+}
+.sub_Info ul{
+    padding: 50px 0;
+}
+.sub_Info ul li{
+    list-style: none;
+    font-size: 2em;
+    padding: 20px 0;
+}
+.sub_Info ul li i{
+    margin-right: 5px;
+    color: red;
+}
+.sub_Info .list ul{
+    position: absolute;
+    display: flex;
+    margin-top: -30px;
+}
+.sub_Info .list ul li{
+   padding: 0 5px;
+}
+.sub-form{
+    margin: 5% 5%;
+}
+.form{
+    padding: 7px 0;
+    width: 400px;
+    margin-right: 80px;
+
+}
+.form input{
+    height: 6vh;
+    width: 500px;
+    font-size: 1em;
+    box-shadow: 1px solid rgba(0,0,0,0.8);
+    /* background: #f6f4f4; */
+    border: 1px solid rgba(0,0,0,0.8);
+    border-radius: 10px;
+    padding: 0 5px;
+    outline: none;
+    
+}
+
+.textarea{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    outline: none;
+}
+.button{
+    padding: 12px 0;
+    
+}
+.button button{
+
+    height: 5vh;
+    width: 150px;
+    background: rgb(230, 8, 8);
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.map{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    margin-bottom: 5px;
+   
+}
+.map iframe{
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+    max-width: 1425px;
+    margin: 0 50px;
+    
+}
+.span-text{
+    color: red;
+}

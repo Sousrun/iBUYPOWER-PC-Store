@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "username": "Irenee",
+      "email": "Baeirene@gmail.com",
+      "password": "12345678",
+      "comfirmpassword": "12345678",
+      "id": 1
+    },
+    {
+      "username": "wendy",
+      "email": "wendy@gmail.com",
+      "password": "23456789",
+      "comfirmpassword": "23456789",
+      "id": 2
+    },
+    {
+      "username": "mina",
+      "email": "mina@gmail.com",
+      "password": "12345678",
+      "comfirmpassword": "12345678",
+      "id": 3
+    }
+  ],
+  "customer": []
+}
