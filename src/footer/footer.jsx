@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import '../footer/footer.css'
+import { Link } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import logo from '../assets/allpicture/Logo.png';
 import { FaFacebook } from "react-icons/fa";
@@ -18,33 +19,30 @@ const Footer = () => {
 <div className="footer-bar">
  <div className="bar-bottom">
 
-     <div className="bar-bottom">
+    <div className="bar-bottom">
          <ul className="le-ft">
-         <b>Shop</b>
-         <li>RDY Prebuilt Computers</li>
-         <li>Customize Gaming PC</li>
-         <li>Gaming PCs</li>
-         <li>Gaming Laptops</li>
-         <li>Gear Store</li>
+         <b>Address:</b>
+         <p><li> 10001, 5th Avenue,</li></p>
+         <li>12202 street, Phnom Penh.</li>
+         <b><li>Email:</li></b>
+         <li>iBUYPOWER@gmail.com</li>
          </ul>
      </div>
-
      <div className="center1">
          <h1></h1>
          <ul>
-             <b><li> Company</li></b>
-             <li> About Us</li>
-             <li>Contact</li>
-             <li> Help</li>
-              <li>Customer reviews</li>
-             <li>Shop</li> 
+             <b><li>Quick Links</li></b>
+             <Link to="/"><li> Home </li></Link>
+             <Link to="/shop"><li>Shop</li></Link> 
+             <Link to="/about"><li> About Us</li></Link>
+             <Link to="/contact"><li>Contact</li></Link>  
          </ul>
      </div>
      
 
      <div className="cen-ter">
          <ul>
-            <b><li>Contact US</li></b>
+            <b><li>Follow Us</li></b>
              <li> <FaFacebook/> Facebook</li>
              <li><FaFacebookMessenger/> Messenger</li>
              <li><FaInstagram/> Instagram</li>
