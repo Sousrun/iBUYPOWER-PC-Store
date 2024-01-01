@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import '../footer/footer.css'
+import './footer.css'
 import { Link } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import logo from '../assets/allpicture/Logo.png';
@@ -15,54 +15,38 @@ import { FaTiktok } from "react-icons/fa";
 const Footer = () => {
   return (
    <>
-        <footer>
-<div className="footer-bar">
- <div className="bar-bottom">
-
-    <div className="bar-bottom">
-         <ul className="le-ft">
-         <b>Address:</b>
-         <p><li> 10001, 5th Avenue,</li></p>
-         <li>12202 street, Phnom Penh.</li>
-         <b><li>Email:</li></b>
-         <li>iBUYPOWER@gmail.com</li>
-         </ul>
-     </div>
-     <div className="center1">
-         <h1></h1>
-         <ul>
-             <b><li>Quick Links</li></b>
-             <Link to="/"><li> Home </li></Link>
-             <Link to="/shop"><li>Shop</li></Link> 
-             <Link to="/about"><li> About Us</li></Link>
-             <Link to="/contact"><li>Contact</li></Link>  
-         </ul>
-     </div>
-     
-
-     <div className="cen-ter">
-         <ul>
-            <b><li>Follow Us</li></b>
-             <li> <FaFacebook/> Facebook</li>
-             <li><FaFacebookMessenger/> Messenger</li>
-             <li><FaInstagram/> Instagram</li>
-             <li><FaPhoneAlt/> Phone</li>
-              <li><FaTelegram /> Telegram</li>
-             <li><FaTiktok/> Tiktok</li> 
-         </ul>
-     </div>
-     <div className="rig-ht">
-         <h2>Our Service</h2>
-         <p>Contact Us: 888-462-3899</p>
-         <p>Get gaming news and iBUYPOWER promotions and offers!</p>
-         <p>Happy your time!</p>
-     </div>
-
-</div>
-</div>
-</footer>
-
-
+    <div className="footer">
+        <div className="address">
+            <h3>Address:</h3>
+            <p>10001, 5th Avenue, 12202 Street, Phnom Penh.</p>
+            <h3>Email</h3>
+            <p>iBUYPOWER@gmail.com</p>
+        </div>
+        <div className='route'>
+            <h3>Quick Links</h3>
+            <div>
+                <Link to="/">Home</Link>
+                <Link to="/shop">Shop</Link>
+                <Link to="/about">About us</Link>
+                <Link to="/contact">Contact</Link>
+            </div>
+        </div>
+        <div className="media">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><FaFacebook/> Facebook</li>
+                <li><FaFacebookMessenger/> Messenger</li>
+                <li><FaInstagram/> Instagram</li>
+                <li><FaPhoneAlt/> Phone</li>
+                <li><FaTelegram /> Telegram</li>
+                <li><FaTiktok/> Tiktok</li> 
+            </ul>
+        </div>
+        <div className="right-section">
+            <h2>Contact Us: 888-462-3899</h2>
+            <p>Get gaming news and iBUYPOWER promotions and offers! Happy times!</p>
+        </div>
+    </div>
    </>
   )
 }
