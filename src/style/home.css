@@ -1,77 +1,91 @@
-
-  
-
-
-
-/*Home*/
-.Home-image{
-    height: 80vh;
-    width: 100%;
-    background: #000000;
-  }
-.homeimage{
-    width: 108%;
-    height: 100vh;
-   
-
-}  
-.home{
-    display: flex;
-    justify-content: space-between;
-}
-.content{
-    position: absolute;
-    top: 50%;
-    left: 50px;
-}
-.content h3{
-    position: relative;
-    font-size: 4em;
-    left: 10%;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    margin-bottom: 20px;
-    
- } 
- .content h4{
-    position: relative;
-    left: 10%;
-    font-size: 1.5em;
-    color: rgb(0, 0, 0);
-    margin-bottom: 20px;
+/* Home */
+.Home-image {
+   height: 80vh;
+   width: 100%;
+   background: #000000;
  }
- .content h5{
-    position: relative;
-    left: 10%;
-    font-size: 1.5em;
-    color: rgb(14, 163, 51);
-    margin-bottom: 20px;
- } 
- .home .content button{
-    position: relative;
-    left: 10%;
-        font-size: 2em;
-        height: 50px;
-        width: 200px;
-        font-weight: bold;
-        background: #076e90;
-        border: none;
-        color: #fff;
-        border-radius: 5px;
-        margin-left: 130px;
-        cursor: pointer;
-
- } 
-  /* Slide images */
- .slide-image{
-    position: absolute;
-    top: 30%;
-    left: 60%;
+ 
+ .homeimage {
+   width: 108%;
+   height: 100vh;
  }
- .slide-image img{
-    height: 550px;
-    width: 500px;
-    border-radius: 30px;
+ 
+ .home {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
  }
-
-
+ 
+ .content {
+   position: absolute;
+   top: 50%;
+   left: 50px;
+ }
+ 
+ .content h3 {
+   position: relative;
+   font-size: 4em;
+   left: 10%;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+   margin-bottom: 20px;
+ }
+ 
+ .content h4 {
+   position: relative;
+   left: 10%;
+   font-size: 1.5em;
+   color: rgb(0, 0, 0);
+   margin-bottom: 20px;
+ }
+ 
+ .content h5 {
+   position: relative;
+   left: 10%;
+   font-size: 1.5em;
+   color: rgb(14, 163, 51);
+   margin-bottom: 20px;
+ }
+ 
+ .home .content button {
+   position: relative;
+   left: 10%;
+   font-size: 2em;
+   height: 50px;
+   width: 200px;
+   font-weight: bold;
+   background: #076e90;
+   border: none;
+   color: #fff;
+   border-radius: 5px;
+   margin-left: 130px;
+   cursor: pointer;
+ }
+ 
+ /* Media Queries for iPhone 14 Pro Max */
+ @media only screen
+   and (device-width: 428px)
+   and (device-height: 926px)
+   and (-webkit-device-pixel-ratio: 3) {
+   .content {
+     left: 20px;
+   }
+ 
+   .home .content button {
+     margin-left: 0;
+   }
+ }
+ 
+ /* Media Queries for iPad */
+ @media only screen
+   and (min-device-width: 768px)
+   and (max-device-width: 1024px)
+   and (-webkit-device-pixel-ratio: 2) {
+   .content {
+     left: 20px;
+   }
+ 
+   .home .content button {
+     margin-left: 0;
+   }
+ }
