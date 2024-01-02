@@ -95,7 +95,7 @@ import { Alert } from 'bootstrap'
                            
                             <div className="text-center-login ">
                             <hr/>
-                                if you have account, Please <Link to ="/signup">Sign up</Link>
+                                if you don't have account, Please <Link to ="/signup">Sign up</Link>
                             </div>
                         </form>
                        
