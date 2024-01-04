@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react"
 import '../style/contact.css'
 // eslint-disable-next-line no-unused-vars
 import { useNavigate, Link } from "react-router-dom"
-import contact_logo from '../assets/allpicture/contact_picture.jpg'
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
@@ -55,7 +54,8 @@ import Footer from "../footer/footer";
         setValid(isvalid)
         if(Object.keys(validationErrors).length===0){
             axios.post('http://localhost:8000/customer',formData)
-            .then(result =>{
+            // eslint-disable-next-line no-unused-vars
+            .then(_result =>{
                 alert("Your Form is submit")
                 setFormData(initialFormData);
              

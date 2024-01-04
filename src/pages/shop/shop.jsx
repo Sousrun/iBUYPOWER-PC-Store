@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import './shop.css'
 import Navbar from '../../navbar/Navbar'
@@ -6,7 +7,6 @@ import {Product} from './product'
 import { PRODUCTS } from "../../assets/allpicture/products";
 import { GAMINGPC } from "../../assets/allpicture/Gamingpc"
 import { ACCESSORIES } from "../../assets/allpicture/Peripherals"
-import Slider from 'react-slick';
 import Slide from '../../assets/slideimage/Slide';
 import Footer from '../../footer/footer';
 

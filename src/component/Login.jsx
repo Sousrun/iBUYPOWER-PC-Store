@@ -1,10 +1,10 @@
 // import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import '../style/login.css'
+// eslint-disable-next-line no-unused-vars
 import { useEffect,useState } from 'react'
 import axios from 'axios'
 import Navbar from '../navbar/Navbar'
-import { Alert } from 'bootstrap'
 
  function Login (){
    const [formData,setFormData]=useState({
@@ -95,7 +95,7 @@ import { Alert } from 'bootstrap'
                            
                             <div className="text-center-login ">
                             <hr/>
-                                if you don't have account, Please <Link to ="/signup">Sign up</Link>
+                                if you dont have account, Please <Link to ="/signup">Sign up</Link>
                             </div>
                         </form>
                        

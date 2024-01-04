@@ -1,6 +1,8 @@
 
 import Navbar from '../../navbar/Navbar'
+// eslint-disable-next-line no-unused-vars
 import Footer from '../../footer/footer'
+// eslint-disable-next-line no-unused-vars
 import React, { useContext } from "react";
 import { ShopContext } from "../../context/shop-context.jsx";
 import { PRODUCTS } from "../../assets/allpicture/products.js";

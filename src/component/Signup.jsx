@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react"
 import axios from "axios"
 import Navbar from '../navbar/Navbar'
@@ -44,10 +45,10 @@ function Signup() {
         setValid(isvalid)
         if(Object.keys(validationErrors).length===0){
             axios.post('http://localhost:8000/users',formData)
-            .then(result =>{
-                alert("Registered Successfully")
-                navigate('/')
-            }) 
+            .then(function () {
+                    alert("Registered Successfully")
+                    navigate('/')
+                }) 
             .catch(err => {
                 console.log(err)
             })
