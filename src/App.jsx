@@ -18,7 +18,7 @@ function App() {
 
       <BrowserRouter>
       
-      <Routes>
+      <Routes basename="/tothepoint_login">
       <Route path="/" element={<Homepage/>}/>
       <Route path="/shop" element={<Shop/>}/>
       <Route path="/about" element={<About/>}/>
@@ -26,9 +26,6 @@ function App() {
       <Route path="/login" element={<Login/>}/>
       <Route path="/signup" element={<Signup/>}/>
       <Route path="/cart" element={<Cart/>}/>
-      
-      
-
       </Routes>
       
       
