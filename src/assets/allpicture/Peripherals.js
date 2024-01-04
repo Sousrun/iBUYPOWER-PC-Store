@@ -14,13 +14,13 @@ import Accessories12 from "../img Peripherals/P12.avif";
 export const ACCESSORIES = [
   {
     id: 1,
-    productName: "Logitech G Pro Wireless",
+    productName: "Logitech G Pro Wireless ",
     price: 129.99,
     productImage:  Accessories1,
   },
   {
     id: 2,
-    productName: "Logitech G304",
+    productName: "Logitech G304 (Recomended for you)",
     price: 45.0,
     productImage:  Accessories2,
   },
@@ -38,7 +38,7 @@ export const ACCESSORIES = [
   },
   {
     id: 5,
-    productName: "Logitech Gaming Keyboard Wired G512 Mechanical in Bahrain | Nexcel",
+    productName: "Logitech Gaming Keyboard Wired G512 Mechanical in Bahrain | Nexcel (Recomended for you)",
     price: 99.99,
     productImage:  Accessories5,
   },
@@ -80,7 +80,7 @@ export const ACCESSORIES = [
   },
   {
     id: 8,
-    productName: "ASUS TUF Gaming H1 Wireless Headset",
+    productName: "ASUS TUF Gaming H1 Wireless Headset (Recomended for you)",
     price: 69.0,
     productImage:  Accessories12,
   },

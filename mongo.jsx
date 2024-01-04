@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 const mongoose = require("mongoose")
 mongoose.connect("mongodb://0.0.0.0:27017/react-login-tut")
 .then(()=>{
@@ -21,4 +22,5 @@ const newSchema=new mongoose.Schema({
 
 const collection = mongoose.model("collection",newSchema)
 
+// eslint-disable-next-line no-undef
 module.exports=collection
